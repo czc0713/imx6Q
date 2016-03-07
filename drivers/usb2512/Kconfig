@@ -1,0 +1,7 @@
+config USB2512_RESET
+	tristate "USB2512 RESET function"
+	help
+	  Say yes here to support switching on/off USB2512 RESET
+	  function.  This function turns backlight density of a
+	  display panel automatically according to the content
+	  shown on the panel.
